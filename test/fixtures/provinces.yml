@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  code: MyString
+  pst: 1
+  gst: 1
+  hst: 1
+  home_province: false
+
+two:
+  name: MyString
+  code: MyString
+  pst: 1
+  gst: 1
+  hst: 1
+  home_province: false

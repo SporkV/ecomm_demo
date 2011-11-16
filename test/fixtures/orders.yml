@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  status: MyString
+  total: 9.99
+  subtotal: 9.99
+  pst: 9.99
+  gst: 9.99
+  payment_processor: MyString
+  processor_identifier: MyString
+  customer_id: 1
+
+two:
+  status: MyString
+  total: 9.99
+  subtotal: 9.99
+  pst: 9.99
+  gst: 9.99
+  payment_processor: MyString
+  processor_identifier: MyString
+  customer_id: 1
