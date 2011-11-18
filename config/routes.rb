@@ -1,4 +1,7 @@
 EcommSample::Application.routes.draw do
+  
+  match "provinces" => "provinces#index", :as => 'provinces'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

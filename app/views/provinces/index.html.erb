@@ -1,0 +1,42 @@
+<h1>Provinces</h1>
+
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Code</th>
+    <th>PST</th>
+    <th>GST</th>
+    <th>HST</th>
+    <th>Home?</th>
+    <th>Customer #</th>
+  </tr>
+  <% @provinces.each do |province| %>
+    <tr>
+      <td>
+        <%= province.name %>
+      </td>
+      <td>
+        <%= province.code %>
+      </td>
+      <td>
+        <%= province.pst %>
+      </td>
+      <td>
+        <%= province.gst %>
+      </td>
+      <td>
+        <%= province.hst %>
+      </td>
+      <td>
+        <%= province.home_province %>
+      </td>
+      <td>
+        <%= province.customers.count %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<% @products.each do |product| %>
+  <p><%= product.name %> - <%= number_to_currency product.price %></p>
+<% end %>
